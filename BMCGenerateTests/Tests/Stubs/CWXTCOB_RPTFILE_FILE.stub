@@ -1,10 +1,10 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub" stubtype="QSAM" target="RPTFILE" token="90000">
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="Tests/Stubs/CWXTCOB_RPTFILE_FILE.stub" stubtype="QSAM" target="RPTFILE" token="140000">
   <properties:properties>
     <properties:property name="bufferType" type="string">OO</properties:property>
     <properties:property name="rollover" type="string">0</properties:property>
   </properties:properties>
-  <stub:description>Created: Dec 23, 2024, 10:30:30 AM</stub:description>
+  <stub:description>Created: Jan 13, 2025, 3:27:41 PM</stub:description>
   <stub:stubdata id="0" name="RPTFILE">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Tests/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Tests/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">

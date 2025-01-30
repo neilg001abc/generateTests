@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 23.5.2.v20241101-1140_160?>
+<!--BMC AMI DevX Total Test 23.5.2.v20241101-1140_160 Jan 30, 2025, 2:55:20 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/CWXTCOBN_RPTFILE_BLANK_LINE.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWXTCOBN_RPTFILE_BLANK-LINE.listructure#Tests/Structures/CWXTCOBN_RPTFILE_BLANK-LINE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTCOBN_RPTFILE_BLANK-LINE.listructure#BLANK_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOBN_RPTFILE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>
